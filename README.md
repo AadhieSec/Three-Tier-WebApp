@@ -33,15 +33,16 @@ tier, while the database remains isolated from direct internet access.
 ## Architecture Flow
 
 ```text
-User
+Presentation Tier
+AWS S3 (Cloudfront OAC)
   |
   v
-Application Load Balancer
+AWS Cloudfront CDN
   |
   v
 Application Tier
-(EC2)
+(API Gateway + Lambda)
   |
   v
 Database Tier
-(RDS)
+(DynamoDB)
