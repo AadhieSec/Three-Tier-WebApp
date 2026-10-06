@@ -5,7 +5,7 @@ separate presentation, application, and database layers.
 
 ## Architecture
 
-![AWS Three-Tier Architecture](aws-architecture.png)
+![AWS Three-Tier Architecture](architecture/aws-architecture.png)
 
 ### Architecture Overview
 
